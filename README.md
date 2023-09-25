@@ -1,6 +1,8 @@
 # Java_Bootcamp
 Java Educational Projects
 
+All projects done using Java 1.8.
+
 # Character Occurences
 
 Program for counting a character occurrences in a text. 
