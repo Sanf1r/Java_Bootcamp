@@ -63,3 +63,28 @@ If an exception is thrown, a message containing information about the error shal
 
 <img width="446" alt="Снимок экрана 2023-09-25 в 17 35 05" src="https://github.com/Sanf1r/Java_Bootcamp/assets/100280376/890391b6-20a1-4c34-a441-96f63aec28e9">
 
+# File Menager
+
+Utility handling the files. The application display information about the files, folder content and size, and provide moving/renaming functionality. In essence, the application emulates a command line of Unix-like systems.
+
+The program accept as an argument the absolute path to the folder where we start to work, and support the following commands:
+
+`mv` WHAT WHERE – enables to transfer or rename a file if WHERE contains a file name without a path.
+
+`ls` – displays the current folder contents (file and subfolder names and sizes in KB)
+
+`cd FOLDER_NAME` – changes the current directory
+
+<img width="585" alt="Снимок экрана 2023-09-25 в 17 46 13" src="https://github.com/Sanf1r/Java_Bootcamp/assets/100280376/bedb917f-626b-43f7-8338-53567e8df2af">
+
+
+
+
+
+
+
+
+
+
+
+
