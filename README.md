@@ -77,6 +77,31 @@ The program accept as an argument the absolute path to the folder where we start
 
 <img width="585" alt="Снимок экрана 2023-09-25 в 17 46 13" src="https://github.com/Sanf1r/Java_Bootcamp/assets/100280376/bedb917f-626b-43f7-8338-53567e8df2af">
 
+# Multithreading Download
+
+Let's assume that we need to download a list of files from a network. Some files are downloaded faster, while others are slower.
+
+To implement this functionality, we can obviously use multithreaded downloading where each thread loads a specific file. But what should we do if there are too many files? A large number of threads cannot be run at the same time. Therefore, many of them will be waiting.
+
+In addition, we should bear in mind that continuously creating and completing threads is a very costly operation we should avoid. It makes more sense to start N threads at once and, when either of them finishes downloading the file, it can take on the next file in the queue.
+
+We need to create files_urls.txt file (file name shall be explicitly specified in program code) where you specify a list of URLs of files to be downloaded. 
+
+Example of the program operation:
+```
+$ java Program.java --threadsCount=3
+Thread-1 start download file number 1
+Thread-2 start download file number 2
+Thread-1 finish download file number 1
+Thread-1 start download file number 3
+Thread-3 start download file number 4
+Thread-1 finish download file number 3
+Thread-2 finish download file number 2
+Thread-1 start download file number 5
+Thread-3 finish download file number 4
+Thread-1 finish download file number 5
+```
+
 
 
 
