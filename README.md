@@ -102,6 +102,20 @@ Thread-3 finish download file number 4
 Thread-1 finish download file number 5
 ```
 
+# First Work With Maven
+
+Project to learn how to use Maven build tool.
+
+External libraries:
+- JCommander for the command line. 
+- JCDP or JColor for using colored output
+
+Example of program operation:
+
+`$ mvn clean package`
+`$ java -jar target/program-1.0-SNAPSHOT.jar`
+
+
 
 
 
