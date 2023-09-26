@@ -65,7 +65,7 @@ If an exception is thrown, a message containing information about the error shal
 
 <img width="446" alt="Снимок экрана 2023-09-25 в 17 35 05" src="https://github.com/Sanf1r/Java_Bootcamp/assets/100280376/890391b6-20a1-4c34-a441-96f63aec28e9">
 
-# File Menager
+# File Manager
 
 Utility handling the files. The application display information about the files, folder content and size, and provide moving/renaming functionality. In essence, the application emulates a command line of Unix-like systems.
 
