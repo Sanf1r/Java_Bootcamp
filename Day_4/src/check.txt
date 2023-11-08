@@ -1,0 +1,12 @@
+$00
+javac ex00/*.java && java ex00.Program --count=10
+-------------------------------------------------
+$01
+javac ex01/*.java && java ex01.Program --count=10
+-------------------------------------------------
+$02
+javac ex02/*.java && java ex02.Program --arraySize=13 --threadsCount=3
+-------------------------------------------------
+$03
+javac ex03/*.java && java ex03.Program --threadsCount=3
+-------------------------------------------------

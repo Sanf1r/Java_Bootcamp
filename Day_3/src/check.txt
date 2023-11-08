@@ -1,0 +1,12 @@
+$00
+javac ex00/*.java && java ex00/Program
+--------------------------------------
+$01
+javac ex01/*.java && java ex01/Program ./ex01/text.txt ./ex01/text2.txt
+java ex01/Program ./ex01/text3.txt ./ex01/text4.txt
+java ex01/Program ./ex01/text5.txt ./ex01/text6.txt
+java ex01.Program ../README.md ../README.md
+--------------------------------------
+$02
+javac ex02/*.java && java ex02/Program --current-folder=
+--------------------------------------

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.school21.numbers.NumberWorkerTest" time="0.453" tests="62" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/test-classes:/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/classes:/Users/morfinov/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/morfinov/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/morfinov/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/morfinov/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/morfinov/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/morfinov/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/morfinov/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/surefire/surefirebooter1122538078013064541.jar /Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/surefire 2023-09-21T14-31-45_485-jvmRun1 surefire2679495301427667114tmp surefire_08598958368658714886tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/test-classes:/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/classes:/Users/morfinov/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/morfinov/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/morfinov/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/morfinov/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/morfinov/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/morfinov/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/morfinov/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/morfinov"/>
+    <property name="user.language" value="1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests/target/surefire/surefirebooter1122538078013064541.jar:/Users/morfinov/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="sun.boot.class.path" value="/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/resources.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/rt.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/sunrsasign.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/jsse.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/jce.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/charsets.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/jfr.jar:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_372-bre_2023_04_25_03_25-b00"/>
+    <property name="user.name" value="morfinov"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6.6"/>
+    <property name="java.endorsed.dirs" value="/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/morfinov/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n000287r000k1y/T/"/>
+    <property name="idea.version" value="2022.1"/>
+    <property name="java.version" value="1.8.0_372"/>
+    <property name="user.dir" value="/Users/morfinov/JavaLast/Java_Bootcamp.Day06-3/src/ex00/Tests"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/morfinov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.372-b00"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="/Users/morfinov/Library/Java/Extensions:/opt/goinfre/morfinov/.brew/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="isPrimeForNotPrimes{int}[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.102"/>
+  <testcase name="isPrimeForNotPrimes{int}[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0.002"/>
+  <testcase name="isPrimeForNotPrimes{int}[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForNotPrimes{int}[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0.002"/>
+  <testcase name="isPrimeForNotPrimes{int}[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[9]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForNotPrimes{int}[10]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[11]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForNotPrimes{int}[12]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[13]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[14]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[15]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[16]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[17]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes{int}[18]" classname="edu.school21.numbers.NumberWorkerTest" time="0.01"/>
+  <testcase name="isPrimeForNotPrimes{int}[19]" classname="edu.school21.numbers.NumberWorkerTest" time="0.002"/>
+  <testcase name="CorrectDigitsSum{int, int}[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.003"/>
+  <testcase name="CorrectDigitsSum{int, int}[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="CorrectDigitsSum{int, int}[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="CorrectDigitsSum{int, int}[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="CorrectDigitsSum{int, int}[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="CorrectDigitsSum{int, int}[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="CorrectDigitsSum{int, int}[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0.014"/>
+  <testcase name="CorrectDigitsSum{int, int}[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="CorrectDigitsSum{int, int}[9]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="CorrectDigitsSum{int, int}[10]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[9]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[10]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[11]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[12]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[13]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[14]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[15]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[16]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[17]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[18]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[19]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[20]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes{int}[21]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[22]" classname="edu.school21.numbers.NumberWorkerTest" time="0.002"/>
+  <testcase name="isPrimeForPrimes{int}[23]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[24]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes{int}[25]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.009"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0.002"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIncorrectNumbers{int}[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+</testsuite>
